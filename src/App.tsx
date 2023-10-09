@@ -1,10 +1,12 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
-
+import Targil from "./components/Example/targil";
+import Modol from "./components/modol";
+import BasicTabs from "./components/tabs";
 function App() {
   return (
     <>
-      <Example />{" "}
+    <BasicTabs></BasicTabs>
+     
     </>
   );
 }
